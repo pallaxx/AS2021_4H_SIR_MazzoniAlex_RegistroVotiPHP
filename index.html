@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>ALEX MAZZONI 4H</title>
+    </head>
+    <body>
+        <form action="RegistroVoti.php" method="post" name="frmRegistroVoti">
+            Cognome e nome studente
+            <input name="CognomeNome" type="text" value="Mazzoni Alex" />
+            <br>
+            Materia
+            <select name="slcMateria">
+                <option value=1>Informatica</option>
+                <option value=2>Matematica</option>
+                <option value=3>Italiano</option>
+                <option value=4>Inglese</option>
+            </select>
+            <table border="0">
+                <tr align="center">
+                    <td><b>Data</b></td>
+                    <td><b>Voto</b></td>
+                    <td><b>Peso</b></td>
+                </tr>
+                <tr>
+                    <td><input name="Data1" type="text" value="01/01/2021" /></td>
+                    <td><input name="Voto1" type="text" value="4" /></td>
+                    <td><input name="Peso1" type="text" value="2" /></td>
+                </tr>
+                <tr>
+                    <td><input name="Data2" type="text" value="10/01/2021" /></td>
+                    <td><input name="Voto2" type="text" value="6" /></td>
+                    <td><input name="Peso2" type="text" value="2" /></td>
+                </tr>
+                <tr>
+                    <td><input name="Data3" type="text" value="17/01/2021" /></td>
+                    <td><input name="Voto3" type="text" value="8" /></td>
+                    <td><input name="Peso3" type="text" value="1" /></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Tabella!</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
